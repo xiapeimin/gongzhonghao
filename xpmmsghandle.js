@@ -51,7 +51,8 @@ function userMsg(wxmsg,retmsg){
                 //retmsg.msgtype类型为空
                 //格式化数据会返回default处的数据
                 //提示用户该类型不被支持
-                retmsg.msg = '该类型不被支持！';
+                retmsg.msgtype = 'text';
+                retmsg.msg = '该类型不被支持哦';
         }
         return formatMsg(retmsg);
     }
