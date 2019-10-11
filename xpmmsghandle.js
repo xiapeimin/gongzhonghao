@@ -52,7 +52,7 @@ function userMsg(wxmsg,retmsg){
                 //格式化数据会返回default处的数据
                 //提示用户该类型不被支持
                 retmsg.msgtype = 'text';
-                retmsg.msg = '该类型不被支持哦';
+                retmsg.msg = '欢迎您！有些类型不被支持哦';
         }
         return formatMsg(retmsg);
     }
